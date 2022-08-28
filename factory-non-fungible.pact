@@ -1,5 +1,5 @@
 (namespace (read-msg 'ns))
-(module factory-poly-fungible GOVERNANCE
+(module factory-non-fungible GOVERNANCE
 
 ;\|/          (__)       factory-non-fungible | poly-fungible-v1 mod
 ;     `\------(oo)       + mints non fungible token collections
@@ -886,15 +886,12 @@
 
 )
 
-;(create-table factory-poly-fungible-reference.ledger)
-;(create-table factory-poly-fungible-reference.supplies)
 ;(create-table ledger)
 ;(create-table supplies)
 ;(create-table collections-table)
 ;(create-table collection-ids-table)
 ;(create-table nft-collections)
 ;(create-table nfts-forsale-table)
-
 ;(create-table user-collections-table)
 ;(create-table user-nfts-table)
 ;(create-table nft-marketoffers)
